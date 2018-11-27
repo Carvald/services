@@ -44,15 +44,8 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-             <groupId>javax.el</groupId>
-             <artifactId>javax.el-api</artifactId>
-             <scope>provided</scope>
-             <version>3.0.0</version>
-        </dependency>
+		</dependency>		
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
