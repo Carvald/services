@@ -3,7 +3,7 @@ package com.empr.begin.config;
 import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
-
+ 
 import javax.servlet.Filter;
  
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +31,7 @@ import org.springframework.web.filter.CompositeFilter;
 
 @Configuration
 @EnableOAuth2Client
+@RestController
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	@Autowired
